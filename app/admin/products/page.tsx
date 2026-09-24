@@ -518,8 +518,7 @@ export default function AdminProductsPage() {
         onConfirm={handleDelete}
         title="Remove Menu Item"
         message={`Are you sure you want to delete "${deleteDialog.product?.name}"? Past completed orders will retain their historic name and price snapshots.`}
-        confirmText="Delete Item"
-        variant="danger"
+        confirmLabel="Delete Item"
       />
     </div>
   )

@@ -397,8 +397,7 @@ export default function AdminOrdersPage() {
         message={`Are you sure you want to permanently delete order ${
           deleteDialog.order ? formatOrderNumber(deleteDialog.order.order_number) : ''
         }? This action will remove its line items.`}
-        confirmText="Delete Order"
-        variant="danger"
+        confirmLabel="Delete Order"
       />
     </div>
   )
