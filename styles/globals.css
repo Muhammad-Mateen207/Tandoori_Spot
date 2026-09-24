@@ -189,11 +189,7 @@ a:hover { color: var(--primary-light); }
   flex-shrink: 0;
   background: var(--sidebar-bg, #111111);
   border-right: 1px solid var(--sidebar-border, #222222);
-<<<<<<< HEAD
-  position: fixed;
-=======
   position: sticky;
->>>>>>> 7f6605d (responsiveness)
   top: 0;
   left: 0;
   height: 100vh;
@@ -205,11 +201,7 @@ a:hover { color: var(--primary-light); }
 
 .admin-main {
   flex: 1;
-<<<<<<< HEAD
-  margin-left: var(--sidebar-width);
-=======
   min-width: 0;
->>>>>>> 7f6605d (responsiveness)
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -233,10 +225,7 @@ a:hover { color: var(--primary-light); }
   padding: var(--space-lg);
   max-width: var(--content-max-width);
   width: 100%;
-<<<<<<< HEAD
-=======
   min-width: 0;
->>>>>>> 7f6605d (responsiveness)
   margin: 0 auto;
 }
 
@@ -1137,21 +1126,13 @@ tbody tr:hover {
 }
 
 /* ─── RESPONSIVE ────────────────────────────────────────────── */
-<<<<<<< HEAD
-@media (max-width: 900px) {
-=======
 @media (max-width: 1024px) {
->>>>>>> 7f6605d (responsiveness)
   .admin-dashboard-grid {
     grid-template-columns: 1fr;
   }
 }
 
-<<<<<<< HEAD
-@media (max-width: 768px) {
-=======
 @media (max-width: 1024px) {
->>>>>>> 7f6605d (responsiveness)
   .admin-mobile-header {
     display: flex;
   }
@@ -1274,15 +1255,9 @@ tbody tr:hover {
 .mb-sm        { margin-bottom: var(--space-sm); }
 .mb-md        { margin-bottom: var(--space-md); }
 .mb-lg        { margin-bottom: var(--space-lg); }
-<<<<<<< HEAD
-.grid-2       { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); }
-.grid-3       { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); }
-.grid-4       { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); }
-=======
 .grid-2       { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-md); }
 .grid-3       { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); }
 .grid-4       { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-md); }
->>>>>>> 7f6605d (responsiveness)
 .truncate     { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 @media (max-width: 768px) {
