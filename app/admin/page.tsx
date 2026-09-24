@@ -343,31 +343,18 @@ export default async function AdminDashboard() {
               className="card"
               style={{
                 display: 'flex',
-<<<<<<< HEAD
-                alignItems: 'center',
-                gap: 14,
-                padding: 12,
-                borderRadius: 'var(--radius-lg)',
-                border: '1px solid var(--border)',
-=======
                 alignItems: 'flex-start',
                 gap: 14,
                 padding: 14,
                 borderRadius: 'var(--radius-lg)',
                 border: '1px solid var(--border)',
                 minWidth: 0,
->>>>>>> 7f6605d (responsiveness)
               }}
             >
               <div
                 style={{
-<<<<<<< HEAD
-                  width: 68,
-                  height: 68,
-=======
                   width: 72,
                   height: 72,
->>>>>>> 7f6605d (responsiveness)
                   borderRadius: 'var(--radius-md)',
                   overflow: 'hidden',
                   flexShrink: 0,
@@ -380,11 +367,7 @@ export default async function AdminDashboard() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
               </div>
-<<<<<<< HEAD
-              <div style={{ minWidth: 0 }}>
-=======
               <div style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 2 }}>
->>>>>>> 7f6605d (responsiveness)
                 <span
                   style={{
                     fontSize: '0.6875rem',
@@ -392,10 +375,7 @@ export default async function AdminDashboard() {
                     color: 'var(--brand-red)',
                     textTransform: 'uppercase',
                     letterSpacing: '0.04em',
-<<<<<<< HEAD
-=======
                     display: 'block',
->>>>>>> 7f6605d (responsiveness)
                   }}
                 >
                   {spec.category}
@@ -405,12 +385,6 @@ export default async function AdminDashboard() {
                     fontWeight: 700,
                     fontSize: '0.875rem',
                     color: 'var(--text-primary)',
-<<<<<<< HEAD
-                    whiteSpace: 'nowrap',
-                    overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                  }}
-=======
                     display: '-webkit-box',
                     WebkitLineClamp: 1,
                     WebkitBoxOrient: 'vertical',
@@ -418,7 +392,6 @@ export default async function AdminDashboard() {
                     lineHeight: 1.2,
                   }}
                   title={spec.name}
->>>>>>> 7f6605d (responsiveness)
                 >
                   {spec.name}
                 </div>
@@ -426,13 +399,6 @@ export default async function AdminDashboard() {
                   style={{
                     fontSize: '0.75rem',
                     color: 'var(--text-muted)',
-<<<<<<< HEAD
-                    whiteSpace: 'nowrap',
-                    overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                    marginTop: 2,
-                  }}
-=======
                     display: '-webkit-box',
                     WebkitLineClamp: 2,
                     WebkitBoxOrient: 'vertical',
@@ -440,7 +406,6 @@ export default async function AdminDashboard() {
                     lineHeight: 1.4,
                   }}
                   title={spec.description}
->>>>>>> 7f6605d (responsiveness)
                 >
                   {spec.description}
                 </div>
